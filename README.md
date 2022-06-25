@@ -7,8 +7,8 @@
 - The build will also automatically provision topics in confluent-kafka after initial setup. 
 
 ### Installs
-Terraform: [https://learn.hashicorp.com/tutorials/terraform/install-cli](https://learn.hashicorp.com/tutorials/terraform/install-cli)
-Google-CLI [https://cloud.google.com/sdk/docs/install](https://cloud.google.com/sdk/docs/install)
+1. Terraform: [https://learn.hashicorp.com/tutorials/terraform/install-cli](https://learn.hashicorp.com/tutorials/terraform/install-cli)
+2. Google-CLI [https://cloud.google.com/sdk/docs/install](https://cloud.google.com/sdk/docs/install)
 ### Setup
 1. Create a google cloud account.
 2. Follow instructions [HERE](https://cloud.google.com/docs/terraform/get-started-with-terraform) to create a google cloud project, set up permissions, and enable the APIs. Stop once these are complete.
