@@ -1,7 +1,7 @@
 ### GCP Infrastructure for small-scale data pipeline
 
 - The purpose of this code is to provide infrastructure for a smallscale data pipeline using the google cloud platform.
-- The build contains provisioning for two debian virtual machines and associated networking. 
+- The build contains provisioning for two debian virtual machines and associated networking. One virtual machine would connect with an api to gather data and send it to a kafka topic, the other would consume the data, store it in a database which can be accessed by a web server. Separating the producer and consumer, and having them kick on at different times will allow for asynchronous workflow, efficiency, and resource conservation.
 - SSH keys are automatically provisioned into a hidden .ssh folder and deleted on destroy. Commands to connect to each vm are automatically provided. 
 - Startup scripts are automatically pushed and run on the virtual machines including code to start cron jobs (scripts are commented out to allow testing of infrastructure before taking on a lengthly build process.)
 - The build will also automatically provision topics in confluent-kafka after initial setup. 
