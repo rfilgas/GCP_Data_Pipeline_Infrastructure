@@ -18,3 +18,7 @@
 
 ### Notes
 - The vms are configured to start and stop at designated times to conserve resources. This has not yet been fully tested.
+
+### Contributors and Use
+- Built by Ryan Filgas
+- Files and code are freely available for use.
