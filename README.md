@@ -29,7 +29,11 @@ $ terraform validate
 ```
 $ terraform apply
 ```
-5. Use the command provided by the output to connect to the vms. To get the commands again, run "terraform output run_prod" for the producer or "terraform outpur run_cons" for the consumer from the project directory.
+4. Use the command provided by the output to connect to the vms. To get the commands again, run "terraform output run_prod" for the producer or "terraform output run_cons" for the consumer from the project directory.
+5. To deallocate all GCP resources:
+```
+$ terraform destroy
+```
 
 ### Notes
 - The vms are configured to start and stop at designated times to conserve resources. This has not yet been fully tested.
