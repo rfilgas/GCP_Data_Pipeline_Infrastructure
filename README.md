@@ -16,6 +16,21 @@
 4. Fill in the variables.tf file with appropriate information.
 5. Edit script files as desired. It may be worth testing the build overall before adding scripts. If the scripts error the build will fail.
 
+## Initalize terraform and run the project
+1. Initialize the project:
+```
+$ terraform Init
+```
+2. Verify project is valid, then fix any error messages:
+```
+$ terraform validate
+```
+3. Build Project:
+```
+$ terraform apply
+```
+5. Use the command provided by the output to connect to the vms. To get the commands again, run "terraform output run_prod" for the producer or "terraform outpur run_cons" for the consumer from the project directory.
+
 ### Notes
 - The vms are configured to start and stop at designated times to conserve resources. This has not yet been fully tested.
 
