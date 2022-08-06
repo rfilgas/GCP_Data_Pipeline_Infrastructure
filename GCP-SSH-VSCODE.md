@@ -24,7 +24,7 @@ ssh -i <path to private key> <username>@<external ip address> -A
 Note: If your ip switches, open the ssh doc from the vscode connection module and replace the ip address manually.
 
 
-Connect via ssh for WINDOWS
+# Connect via ssh for WINDOWS
 
 1. Install vscodes remote ssh module
 2. Generate a key by first navigating to Users\<username>\.ssh, then running in powershell: ssh-keygen.exe
