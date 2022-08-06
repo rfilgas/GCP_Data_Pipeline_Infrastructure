@@ -37,9 +37,8 @@ Note: If your ip switches, open the ssh doc from the vscode connection module an
 9. On the left panel in vscode, go to the remote ssh icon. Click the button to add.
 10. In the prompt that pops up type: <your_username>@ip_address
 11. It's not going to work. This is expected. Click the gear icon and select the config file you saved your ssh info to open.
-12. Make sure your username here EXACTLY matches your username on the vm.
-13. Add one more line to the bottom of this config file: IdentityFile ~/.ssh/<id_rsa>
-14. Connect. You're officially done! Click "open folder" and select the filepath to your project.
+12. Add one more line to the bottom of this config file: IdentityFile ~/.ssh/<id_rsa>
+13. Connect. You're officially done! Click "open folder" and select the filepath to your project.
 
 Note:  If your ip switches, open the ssh doc from the vscode connection module and replace the ip address manually wherever it occurs in the file.
 TODO: Refine windows directions as some steps could likely be simplified.
